@@ -1,5 +1,9 @@
 # Streamlit Hugging Face
 
+[![CI/CD status](https://gitlab.com/Yer1k/streamlit_hugging_face/badges/main/pipeline.svg)](https://gitlab.com/Yer1k/streamlit_hugging_face/-/commits/main)
+
+
+
 ## Features
 
 - [**Streamlit**](https://www.streamlit.io/): Streamlit is an open-source app framework for Machine Learning and Data Science projects.
