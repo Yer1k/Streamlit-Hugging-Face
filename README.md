@@ -55,4 +55,15 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+## Testing
+Unit tests can be run using the following command:
 
+```bash
+ python -m unittest discover -s tests -p "test_*.py"
+ ```
+![Testing](./screenshots/test.png)
+
+This repo using GitLab CI/CD to run the tests for every push to the main branch. The pipeline is defined in the `.gitlab-ci.yml` file. All tests should pass.
+
+## License
+[MIT](./LICENSE) 
