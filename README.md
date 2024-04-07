@@ -2,7 +2,7 @@
 
 [![CI/CD status](https://gitlab.com/Yer1k/streamlit_hugging_face/badges/main/pipeline.svg)](https://gitlab.com/Yer1k/streamlit_hugging_face/-/commits/main)
 
-
+This is a Streamlit app that uses Hugging Face's transformers library to perform Question Answering (QA) tasks. The app uses the `roberta-base` model fine-tuned on the SQuAD2.0 dataset to answer questions based on a given passage.
 
 ## Features
 
