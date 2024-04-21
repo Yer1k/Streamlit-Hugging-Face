@@ -2,8 +2,13 @@ import unittest
 from utils.model_utils import load_qa_model
 
 class TestModelUtils(unittest.TestCase):
+    '''
+    Test the model_utils module
+    '''
     def test_load_qa_model(self):
-        # Test if the model is loaded successfully
+        '''
+        Test the load_qa_model function
+        '''
         qa_pipeline = load_qa_model()
         self.assertIsNotNone(qa_pipeline)
         
